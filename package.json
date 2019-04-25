@@ -2,6 +2,6 @@
   "name": "renew-js",
   "version": "0.1.0",
   "scripts": {
-    "preinstall": "node ./scripts/npmInstall.js"
+    "preinstall": "node ./scripts/preinstall.js"
   }
 }
