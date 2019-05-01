@@ -1,6 +1,6 @@
 {
   "name": "renew-js",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "scripts": {
     "postinstall": "node ./scripts/postinstall.js",
     "preinstall": "node ./scripts/preinstall.js"
