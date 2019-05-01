@@ -1,6 +1,8 @@
 {
   "name": "renew-js",
   "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/renew-js/renew-js",
   "scripts": {
     "postinstall": "node ./scripts/postinstall.js",
     "preinstall": "node ./scripts/preinstall.js"
