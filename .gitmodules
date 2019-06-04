@@ -1,18 +1,24 @@
 [submodule "renew-lib"]
 	path = renew-lib
-	url = https://github.com/renew-js/renew-lib.git
+	url = git@github.com:renew-js/renew-lib.git
 [submodule "renew-ui"]
 	path = renew-ui
-	url = https://github.com/renew-js/renew-ui.git
+	url = git@github.com:renew-js/renew-ui.git
 [submodule "renew-formalism"]
 	path = renew-formalism
-	url = https://github.com/renew-js/renew-formalism.git
+	url = git@github.com:renew-js/renew-formalism.git
 [submodule "renew-formalism-pt"]
 	path = renew-formalism-pt
-	url = https://github.com/renew-js/renew-formalism-pt.git
+	url = git@github.com:renew-js/renew-formalism-pt.git
 [submodule "renew-formalism-base"]
 	path = renew-formalism-base
-	url = https://github.com/renew-js/renew-formalism-base.git
+	url = git@github.com:renew-js/renew-formalism-base.git
 [submodule "eslint-config-renew"]
 	path = eslint-config-renew
-	url = https://github.com/renew-js/eslint-config-renew.git
+	url = git@github.com:renew-js/eslint-config-renew.git
+[submodule "renew-simulator-gateway"]
+	path = renew-simulator-gateway
+	url = git@github.com:renew-js/renew-simulator-gateway.git
+[submodule "renew-simulator-ccpn"]
+	path = renew-simulator-ccpn
+	url = git@github.com:renew-js/renew-simulator-ccpn.git
