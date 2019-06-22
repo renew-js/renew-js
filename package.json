@@ -4,7 +4,11 @@
   "license": "MIT",
   "repository": "https://github.com/renew-js/renew-js",
   "scripts": {
+    "clean": "node ./scripts/clean.js",
     "postinstall": "node ./scripts/postinstall.js",
     "preinstall": "node ./scripts/preinstall.js"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3"
   }
 }
