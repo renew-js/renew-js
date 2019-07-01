@@ -22,3 +22,6 @@
 [submodule "renew-simulator-ccpn"]
 	path = renew-simulator-ccpn
 	url = git@github.com:renew-js/renew-simulator-ccpn.git
+[submodule "renew-simulator-client"]
+	path = renew-simulator-client
+	url = git@github.com:renew-js/renew-simulator-client.git
