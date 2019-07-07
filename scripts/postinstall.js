@@ -21,7 +21,7 @@ modules.forEach((parent) => {
 
     modules.forEach((child) => {
         if (fs.existsSync(join(cwd, 'node_modules/' + child))) {
-            cp.spawn(cmd, [ 'link', '../' + child ], {
+            cp.spawnSync(cmd, [ 'link', '../' + child ], {
                 env: process.env,
                 cwd: cwd,
                 stdio: 'inherit'
