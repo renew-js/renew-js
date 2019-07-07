@@ -17,14 +17,21 @@ fs.readdirSync(dir).forEach((module) => {
     }
 });
 
-modules.forEach((parent) => {
-    const cwd = join(dir, parent);
+async function cleanModules() {
+    await Promise.all(modules.map((parent) => {
+        return new Promise((resolve) => {
+            const cwd = join(dir, parent);
 
-    console.log('Clean up', cwd, 'node_modules package-lock.json');
-    rimraf(cwd + '/node_modules', () => {
-        console.log(parent, 'done clean up', '[node_modules]');
-    });
-    rimraf(cwd + '/package-lock.json', () => {
-        console.log(parent, 'done clean up', '[package-lock]');
-    });
-});
+            console.log('Clean up', cwd, 'node_modules package-lock.json');
+            rimraf(cwd + '/package-lock.json', () => {
+                console.log(parent, 'clean up', '[package-lock]');
+                rimraf(cwd + '/node_modules', () => {
+                    console.log(parent, 'done clean up', '[node_modules]');
+                    resolve();
+                });
+            });
+        });
+    }));
+}
+
+cleanModules().then(() => { console.log('Done'); });
