@@ -16,3 +16,12 @@
 [submodule "eslint-config-renew"]
 	path = eslint-config-renew
 	url = https://github.com/renew-js/eslint-config-renew.git
+[submodule "renew-simulator-gateway"]
+	path = renew-simulator-gateway
+	url = https://github.com/renew-js/renew-simulator-gateway.git
+[submodule "renew-simulator-ccpn"]
+	path = renew-simulator-ccpn
+	url = https://github.com/renew-js/renew-simulator-ccpn.git
+[submodule "renew-simulator-client"]
+	path = renew-simulator-client
+	url = https://github.com/renew-js/renew-simulator-client.git
