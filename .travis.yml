@@ -1,0 +1,11 @@
+language: node_js
+node_js: "10"
+before_install:
+  - export DISPLAY=:99.0
+  - npm i -g npm@latest
+cache: npm
+install:
+  - npm install
+script:
+  - npm run clean
+  - npm install
