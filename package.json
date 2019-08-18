@@ -1,6 +1,6 @@
 {
   "name": "renew-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": "https://github.com/renew-js/renew-js",
   "scripts": {
@@ -9,6 +9,6 @@
     "preinstall": "node ./scripts/preinstall.js"
   },
   "devDependencies": {
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.7.1"
   }
 }
