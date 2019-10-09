@@ -6,6 +6,12 @@ the editor. To archive a multi-formalism editor and simulator we base the
 formalisms on metamodels and provide a plugin-architecture to extend
 domain specific languages.
 
+## Instructions
+
+- git clone renew-js project
+- git submodule init and update
+- run npm install
+
 ## License 
 MIT
 
