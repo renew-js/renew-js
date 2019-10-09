@@ -16,6 +16,7 @@ domain specific languages.
 - git clone renew-js project
 - git submodule init and update
 - run npm install
+- in renew-ui: npm run serve
 
 ## License 
 MIT
