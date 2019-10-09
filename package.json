@@ -1,7 +1,10 @@
 {
   "name": "renew-js",
-  "version": "0.1.0",
+  "version": "1.0.1",
+  "license": "MIT",
+  "repository": "https://github.com/renew-js/renew-js",
   "scripts": {
+    "clean": "node ./scripts/clean.js",
     "postinstall": "node ./scripts/postinstall.js",
     "preinstall": "node ./scripts/preinstall.js",
     "lint": "eslint --ignore-path .gitignore .",
@@ -12,7 +15,8 @@
     "eslint-config-google": "^0.12.0",
     "eslint-config-renew": "file:eslint-config-renew",
     "eslint-plugin-jasmine": "^2.10.1",
-    "eslint-plugin-vue": "^5.2.2"
+    "eslint-plugin-vue": "^5.2.2",
+    "rimraf": "^2.7.1"
   },
   "eslintConfig": {
     "env": {
