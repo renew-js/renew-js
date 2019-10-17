@@ -4,6 +4,7 @@
   "license": "MIT",
   "repository": "https://github.com/renew-js/renew-js",
   "scripts": {
+    "serve": "npm run serve --prefix ./renew-ui",
     "clean": "node ./scripts/clean.js",
     "postinstall": "node ./scripts/postinstall.js",
     "preinstall": "node ./scripts/preinstall.js",
